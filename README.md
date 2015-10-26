@@ -19,7 +19,7 @@ white-space: -moz-pre-wrap;
 white-space: -pre-wrap; 
 white-space: -o-pre-wrap; 
 word-wrap: break-word;">
-@reboot python </path to the script/>&
+@reboot python [path to the script] &
 </pre>
 
 
