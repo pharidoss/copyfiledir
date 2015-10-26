@@ -6,14 +6,32 @@ a local directory automatically. Two ways to use this script:
 USAGE
 -------------------------------------------------------
 1. run the script in background by putting in the crontab
+<pre style="white-space: pre-wrap; 
+white-space: -moz-pre-wrap; 
+white-space: -pre-wrap; 
+white-space: -o-pre-wrap; 
+word-wrap: break-word;">
 $crontab -e
-insert: @reboot python </path to the file/>&
+</pre>
+insert: 
+<pre style="white-space: pre-wrap; 
+white-space: -moz-pre-wrap; 
+white-space: -pre-wrap; 
+white-space: -o-pre-wrap; 
+word-wrap: break-word;">
+@reboot python </path to the script/>&
+</pre>
 
-For example:	if the path to the file is /home/person/Desktop/copyfile.py
-		then insert: @reboot python /home/person/Desktop/copyfile.py&	  
 
 2. run the script as and when required.
-For example:	$python /home/person/Desktop/copyfile.py #add an & to run the script in the background.
+
+<pre style="white-space: pre-wrap; 
+white-space: -moz-pre-wrap; 
+white-space: -pre-wrap; 
+white-space: -o-pre-wrap; 
+word-wrap: break-word;">
+$python /home/person/Desktop/copyfile.py #add an & to run the script in the background.
+</pre>
 
 RESULT
 ------------------------------------------------------
